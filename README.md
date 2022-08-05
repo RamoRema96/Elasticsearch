@@ -1,4 +1,25 @@
 # Elasticsearch 
+## Start elasticsearch
+`cd elastic... 
+` 
+
+entra nella cartella dove hai scaricato elastic sul tuo computer.
+
+`
+bin/elasticsearch
+`
+Stai tipo mandando richiesta per accedere ad un cluster(?) (sicuramente ad un'istanza di elastic che vive all'interno del tuo computer, locale).
+
+
+`
+curl http://localhost:9200/ 
+`
+
+Vedi lo stato di elastic e  se la richiesta è andata a buon fine. 
+ 
+Entra dentro la cartella di kibana che hai scaricato sul tuo pc e fai partire kibana
+
+`bin/kibana`
 
 
 ## Search queries
@@ -66,7 +87,8 @@ GET Enter_name_of_index_here/_search
     }
   }
 }
-```
+``` 
+``
 
 When the `match query` is used to search for a phrase, it has high recall but low precision as it returns a lot of loosely related documents.
 
