@@ -48,6 +48,7 @@ GET news_headlines/_search
 ```
 
 Gli stai dicendo: fai l'aggregazione, chiamala by_category, per che tipo? (quindi immagino "terms" si riferisca a stringhe) e con size gli dici quante righe vuoi prendere. 
+Nel risultato trovi una  specie di chiave  chiamata "aggregations" con dentro il nome della tua aggregazione che a sua volta ha all'interno la lista di tutte le category e quanti doc hanno quella category.
 
 ## Full text queries
 ### Searching for search terms
